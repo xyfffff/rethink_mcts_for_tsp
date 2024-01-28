@@ -11,6 +11,8 @@ Inst_Num_Per_Batch=$((Total_Instance_Num / threads))
 
 Param_T=$1
 
+mkdir -p ./results/${Temp_City_Num}
+
 for ((i = 0; i < $threads; i++)); do
     {
         touch ./results/${Temp_City_Num}/result_${i}.txt

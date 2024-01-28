@@ -9,6 +9,7 @@ Total_Instance_Num=128
 threads=64
 Inst_Num_Per_Batch=$((Total_Instance_Num / threads))
 
+mkdir -p ./results/${Temp_City_Num}
 
 for ((i = 0; i < $threads; i++)); do
     {

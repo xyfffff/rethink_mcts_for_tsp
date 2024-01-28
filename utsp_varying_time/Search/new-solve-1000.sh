@@ -18,6 +18,9 @@ ph=$6
 retart=$7
 retart_rec=$8
 Param_T=$9
+
+mkdir -p ./results/1000
+
 for ((i=0;i<$threads;i++));do
 {
 	touch ./results/${instancenum[j]}/result_${i}.txt
