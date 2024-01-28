@@ -106,7 +106,7 @@ def calculate_path_length(coords, tour):
 
 def main(N=1000, max_trials=10000, runs=10, seed=1234, num_workers=None):
     file_path = f"./tsp{N}_test_concorde.txt"
-    lkh_path = '/home/v-yifanxia/experiment/LKH-3.0.9/LKH'
+    lkh_path = '/path/to/your/LKH-3.0.9/LKH'
 
     instances, optimal_solutions = read_tsp_instances(file_path)
 
