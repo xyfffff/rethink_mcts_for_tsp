@@ -1,9 +1,17 @@
 ## Installation
 
 1. **Environment Setup**:
-   To set up the environment, use the `environment.yml` file:
+   The project relies on the `fire`, `lkh`, `numpy`, and `torch` libraries. Install them using the following commands:
+
+   ```bash
+   pip install fire
+   pip install lkh
+   pip install numpy
    ```
-   conda env create -f environment.yml
+
+   Install torch according to your CUDA version. For CUDA 11.4, use:
+   ```bash
+   pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
    ```
 
 ## Heatmap Loading
