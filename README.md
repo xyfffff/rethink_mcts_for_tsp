@@ -1,4 +1,4 @@
-# <p align=center> :fire: ICML'24 Oral `Position: Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems`</p>
+# <p align=center> [:fire: ICML'24 Oral] `Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems`</p>
 
 
 ## Abstract
