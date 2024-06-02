@@ -1,9 +1,10 @@
 # <p align=center> `Position: Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems`</p>
 
-🔥 **ICML 2024 Oral Paper**
+🎯 **ICML 2024 Oral Paper**
+😊 **Authors:** [Yifan Xia](https://github.com/xyfffff), [Xianliang Yang](https://www.microsoft.com/en-us/research/people/xianya/), [Zichuan Liu](https://zichuan-liu.github.io/), [Zhihao Liu](https://scholar.google.com/citations?hl=zh-CN&user=Ls5fWOIAAAAJ), [Lei Song](https://www.microsoft.com/en-us/research/people/lesong/), [Jiang Bian](https://sites.google.com/view/jiangbian/home)
 
-## Abstract
-Recent advancements in solving large-scale traveling salesman problems (TSP) utilize the heatmap-guided Monte Carlo tree search (MCTS) paradigm, where machine learning (ML) models generate heatmaps, indicating the probability distribution of each edge being part of the optimal solution, to guide MCTS in solution finding. However, our theoretical and experimental analysis raises doubts about the effectiveness of ML-based heatmap generation. In support of this, we demonstrate that a simple baseline method can outperform complex ML approaches in heatmap generation. Furthermore, we question the practical value of the heatmap-guided MCTS paradigm. To substantiate this, our findings show its inferiority to the LKH-3 heuristic despite the paradigm's reliance on problem-specific, hand-crafted strategies. For the future, we suggest research directions focused on developing more theoretically sound heatmap generation methods and exploring autonomous, generalizable ML approaches for combinatorial problems.
+## Overview
+Our theoretical and experimental analysis raises doubts about the effectiveness of ML-based heatmap generation. In support of this, we demonstrate that a simple baseline method can outperform complex ML approaches in heatmap generation. Furthermore, we question the practical value of the heatmap-guided MCTS paradigm. To substantiate this, our findings show its inferiority to the LKH-3 heuristic despite the paradigm's reliance on problem-specific, hand-crafted strategies.
 
 ## Installation
 
