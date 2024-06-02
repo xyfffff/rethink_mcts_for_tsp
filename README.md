@@ -1,3 +1,12 @@
+# <p align=center> `Position: Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems`</p>
+
+🎯 **ICML 2024 Oral Paper**
+
+😊 **Authors:** [Yifan Xia](https://github.com/xyfffff), [Xianliang Yang](https://www.microsoft.com/en-us/research/people/xianya/), [Zichuan Liu](https://zichuan-liu.github.io/), [Zhihao Liu](https://scholar.google.com/citations?hl=zh-CN&user=Ls5fWOIAAAAJ), [Lei Song](https://www.microsoft.com/en-us/research/people/lesong/), [Jiang Bian](https://sites.google.com/view/jiangbian/home)
+
+## Overview
+Our theoretical and experimental analysis raises doubts about the effectiveness of ML-based heatmap generation. In support of this, we demonstrate that a simple baseline method can outperform complex ML approaches in heatmap generation. Furthermore, we question the practical value of the heatmap-guided MCTS paradigm. To substantiate this, our findings show its inferiority to the LKH-3 heuristic despite the paradigm's reliance on problem-specific, hand-crafted strategies.
+
 ## Installation
 
 1. **Environment Setup**:
@@ -130,6 +139,7 @@
 
 ## Grid Search for SoftDist Temperature Parameter
 
+
 8. **Grid search for SoftDist's temperature parameter**:
    First, generate a training dataset for grid search, using TSP-500 as an example:
    ```bash
@@ -137,3 +147,17 @@
    python generate_training_data.py --N 500 --batch 1024
    bash grid_search-500.sh
    ```
+
+
+## Citation  
+> 🌟 If you find this resource helpful, please consider starting this repository and cite our research:
+
+```bibtex
+@inproceedings{xia2024position,
+      title={Position: Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems}, 
+      author={Yifan Xia, Xianliang Yang, Zichuan Liu,  Zhihao Liu, Lei Song, Jiang Bian},
+      year={2024},
+      booktitle={Proceedings of the 41st International Conference on Machine Learning}
+}
+
+```
