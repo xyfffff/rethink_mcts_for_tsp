@@ -1,5 +1,7 @@
 # <p align=center> `Position: Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems`</p>
 
+🔥 **ICML 2024 Oral Paper**
+
 ## Abstract
 Recent advancements in solving large-scale traveling salesman problems (TSP) utilize the heatmap-guided Monte Carlo tree search (MCTS) paradigm, where machine learning (ML) models generate heatmaps, indicating the probability distribution of each edge being part of the optimal solution, to guide MCTS in solution finding. However, our theoretical and experimental analysis raises doubts about the effectiveness of ML-based heatmap generation. In support of this, we demonstrate that a simple baseline method can outperform complex ML approaches in heatmap generation. Furthermore, we question the practical value of the heatmap-guided MCTS paradigm. To substantiate this, our findings show its inferiority to the LKH-3 heuristic despite the paradigm's reliance on problem-specific, hand-crafted strategies. For the future, we suggest research directions focused on developing more theoretically sound heatmap generation methods and exploring autonomous, generalizable ML approaches for combinatorial problems.
 
@@ -136,6 +138,15 @@ Recent advancements in solving large-scale traveling salesman problems (TSP) uti
 ## Grid Search for SoftDist Temperature Parameter
 
 
+8. **Grid search for SoftDist's temperature parameter**:
+   First, generate a training dataset for grid search, using TSP-500 as an example:
+   ```bash
+   cd grid_search
+   python generate_training_data.py --N 500 --batch 1024
+   bash grid_search-500.sh
+   ```
+
+
 ## Citation  
 > 🌟 If you find this resource helpful, please consider starting this repository and cite our research:
 
@@ -148,11 +159,3 @@ Recent advancements in solving large-scale traveling salesman problems (TSP) uti
 }
 
 ```
-
-8. **Grid search for SoftDist's temperature parameter**:
-   First, generate a training dataset for grid search, using TSP-500 as an example:
-   ```bash
-   cd grid_search
-   python generate_training_data.py --N 500 --batch 1024
-   bash grid_search-500.sh
-   ```
