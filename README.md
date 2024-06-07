@@ -150,6 +150,8 @@ Our theoretical and experimental analysis raises doubts about the effectiveness 
 
 
 ## Citation  
+You can find the arXiv version of the paper here: https://arxiv.org/abs/2406.03503.
+
 > 🌟 If you find this resource helpful, please consider starting this repository and cite our research:
 
 ```bibtex
