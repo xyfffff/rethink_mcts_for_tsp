@@ -7,6 +7,18 @@
 ## Overview
 Our theoretical and experimental analysis raises doubts about the effectiveness of ML-based heatmap generation. In support of this, we demonstrate that a simple baseline method can outperform complex ML approaches in heatmap generation. Furthermore, we question the practical value of the heatmap-guided MCTS paradigm. To substantiate this, our findings show its inferiority to the LKH-3 heuristic despite the paradigm's reliance on problem-specific, hand-crafted strategies.
 
+## Addressing the Recent Commentary
+We have recently received feedback from the commentary titled "Comment on paper: Position: Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems" by the author of the UTSP algorithm, claiming that our inference times are inconsistent and questioning the validity of our conclusions. We would like to clarify the following points:
+
+1. **Performance Comparison**: As detailed in Table 1 of our paper, even if we disregard the I/O time for UTSP, its performance remains the poorest. Furthermore, UTSP fails to scale to TSP-10000 instances. Hence, our original conclusion remains robust: UTSP lags behind SoftDist in both speed and performance metrics.
+
+2. **Misinterpretation of Table 3**: The intent of our Table 3 experiment is to demonstrate that, with finely-tuned MCTS parameters, the impact of the heatmap diminishes. As Table 3 shows, even when using a Zero heatmap for TSP-500, the final results surpass those of UTSP. Therefore, in a scenario where MCTS parameters are optimized, the practical value of all ML-based algorithms is questionable.
+
+Additionally, we believe that there may have been some misunderstandings or misinterpretations in the commentary. We encourage a thorough review of our paper to ensure a complete and accurate understanding of our findings.
+
+We hope this addresses any confusion and prevents any future misinterpretations.
+
+
 ## Installation
 
 1. **Environment Setup**:
