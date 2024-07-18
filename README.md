@@ -2,7 +2,7 @@
 
 🎯 **ICML 2024 Oral Paper**
 
-😊 **Authors:** [Yifan Xia](https://github.com/xyfffff), [Xianliang Yang](https://www.microsoft.com/en-us/research/people/xianya/), [Zichuan Liu](https://zichuan-liu.github.io/), [Zhihao Liu](https://scholar.google.com/citations?hl=zh-CN&user=Ls5fWOIAAAAJ), [Lei Song](https://www.microsoft.com/en-us/research/people/lesong/), [Jiang Bian](https://sites.google.com/view/jiangbian/home)
+😊 **Authors:** [Yifan Xia](https://scholar.google.com/citations?user=QH2Yjk0AAAAJ&hl=zh-CN), [Xianliang Yang](https://www.microsoft.com/en-us/research/people/xianya/), [Zichuan Liu](https://zichuan-liu.github.io/), [Zhihao Liu](https://scholar.google.com/citations?hl=zh-CN&user=Ls5fWOIAAAAJ), [Lei Song](https://www.microsoft.com/en-us/research/people/lesong/), [Jiang Bian](https://sites.google.com/view/jiangbian/home)
 
 ## Overview
 Our theoretical and experimental analysis raises doubts about the effectiveness of ML-based heatmap generation. In support of this, we demonstrate that a simple baseline method can outperform complex ML approaches in heatmap generation. Furthermore, we question the practical value of the heatmap-guided MCTS paradigm. To substantiate this, our findings show its inferiority to the LKH-3 heuristic despite the paradigm's reliance on problem-specific, hand-crafted strategies.
