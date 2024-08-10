@@ -172,8 +172,9 @@ You can find the arXiv version of the paper here: https://arxiv.org/abs/2406.035
 @inproceedings{xia2024position,
       title={Position: Rethinking Post-Hoc Search-Based Neural Approaches for Solving Large-Scale Traveling Salesman Problems}, 
       author={Yifan Xia, Xianliang Yang, Zichuan Liu,  Zhihao Liu, Lei Song, Jiang Bian},
+      booktitle={Proceedings of the 41st International Conference on Machine Learning},
+      pages={54178--54190},
       year={2024},
-      booktitle={Proceedings of the 41st International Conference on Machine Learning}
 }
 
 ```
